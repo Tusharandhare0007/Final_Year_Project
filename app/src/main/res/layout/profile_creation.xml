@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="#F8F7F7"
+android:padding="16dp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/profile"
+    android:layout_gravity="center_horizontal"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:layout_marginBottom="24dp"/>
+
+<ImageView
+    android:id="@+id/profileImage"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/img"
+    android:layout_marginBottom="32dp"/>
+
+<EditText
+    android:id="@+id/nameInput"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/emp_name"
+    android:padding="16dp"
+    android:background="@drawable/edit_text_background"
+    android:layout_marginBottom="16dp"/>
+
+<EditText
+    android:id="@+id/educationInput"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/education"
+    android:padding="16dp"
+    android:background="@drawable/edit_text_background"
+    android:layout_marginBottom="16dp"/>
+
+<EditText
+    android:id="@+id/skillsInput"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Skills"
+    android:padding="16dp"
+    android:background="@drawable/edit_text_background"
+    android:layout_marginBottom="16dp"/>
+
+<EditText
+    android:id="@+id/experienceInput"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Experience"
+    android:padding="16dp"
+    android:background="@drawable/edit_text_background"
+    android:layout_marginBottom="24dp"/>
+
+<LinearLayout
+    android:id="@+id/resumeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/edit_text_background"
+    android:layout_marginBottom="24dp">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_document"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="My Resume"
+        android:layout_marginStart="8dp"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_upload"/>
+</LinearLayout>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="350px"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#008EFF"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="Next"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

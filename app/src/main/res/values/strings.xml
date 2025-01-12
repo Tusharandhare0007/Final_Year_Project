@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Database</string>
+    <string name="back_button">Back</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="edit_profile_picture">Edit Profile Picture</string>
+    <string name="user_name">Fahim Rehman</string>
+    <string name="job_title">UX/UI Designer</string>
+    <string name="label_name">Name</string>
+    <string name="label_email">Email Address</string>
+    <string name="user_email">example@email.com</string>
+    <string name="edit_name">Edit Name</string>
+    <string name="edit_email">Edit Email</string>
+    <string name="name">Name</string>
+    <string name="edit_location" />
+    <string name="edit_education" />
+    <string name="edit_experience" />
+    <string name="edit_languages" />
+    <string name="edit_skills" />
+    <string name="education">Education</string>
+    <string name="emp_name">Name</string>
+    <string name="profile">Profile</string>
+    <string name="logout_icon" />
+    <string name="notification_settings_icon" />
+    <string name="account_settings_icon" />
+    <string name="my_resume_icon" />
+
+</resources>
