@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "340440017184",
+    "project_id": "hirelink-ca182",
+    "storage_bucket": "hirelink-ca182.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340440017184:android:599059be5bdddeaefc4f45",
+        "android_client_info": {
+          "package_name": "com.example.database"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD526j6FsdpW7W-tt1RrI74_Y7TcwT2yWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

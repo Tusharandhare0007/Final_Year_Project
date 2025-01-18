@@ -4,8 +4,6 @@
     <string name="edit_profile">Edit Profile</string>
     <string name="profile_image">Profile Image</string>
     <string name="edit_profile_picture">Edit Profile Picture</string>
-    <string name="user_name">Fahim Rehman</string>
-    <string name="job_title">UX/UI Designer</string>
     <string name="label_name">Name</string>
     <string name="label_email">Email Address</string>
     <string name="user_email">example@email.com</string>
@@ -24,5 +22,27 @@
     <string name="notification_settings_icon" />
     <string name="account_settings_icon" />
     <string name="my_resume_icon" />
+    <string name="hello_jay_good_day">Hello , Good Day 👋</string>
+    <string name="apply_before">APPLY BEFORE</string>
+    <string name="profile_placeholder">Profile Placeholder</string>
+    <string name="teacher">TEACHER</string>
+    <string name="apply_now">APPLY NOW</string>
+    <string name="roles_and_responsibilities">ROLES AND RESPONSIBILITIES</string>
+    <string name="job_location">JOB LOCATION</string>
+    <string name="work_from_college">Work from College</string>
+    <string name="sign_up_now">Sign Up Now!!</string>
+    <string name="edit_profile_icon" />
+    <string name="profile_picture" />
+    <string-array name="roles_array">
+            <item>Student</item>
+            <item>Teacher</item>
+            <item>Admin</item>
+        </string-array>
+        <string-array name="languages_array">
+            <item>English</item>
+            <item>Spanish</item>
+            <item>French</item>
+        </string-array>
+        <color name="navigation_item_color">#FF000000</color> <!-- Black -->
+    </resources>
 
-</resources>

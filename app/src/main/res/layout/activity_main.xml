@@ -1,103 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    android:padding="16dp">
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
 
-    <!-- Illustration -->
     <ImageView
-        android:id="@+id/illustrationImage"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_centerHorizontal="true"
+        android:id="@+id/ivIllustration"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
         android:src="@drawable/saly"
         android:contentDescription="Illustration"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginBottom="16dp"/>
 
-    <!-- Title -->
     <TextView
-        android:id="@+id/titleText"
+        android:id="@+id/tvSignUpHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/illustrationImage"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:text="Login In Now!"
+        android:text="Sign Up Now!!"
         android:textSize="24sp"
-        android:textColor="#000000"
-        android:fontFamily="sans-serif-medium"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"/>
 
-    <!-- Subtitle -->
-    <TextView
-        android:id="@+id/subtitleText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/titleText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:text="login to start your job search and manage applications with ease."
-        android:textSize="14sp"
-        android:textColor="#000000"
-        android:fontFamily="sans-serif"
-        android:gravity="center"
-        android:lineSpacingExtra="2dp"/>
-
-    <!-- Email Input -->
-
-    <!-- Password Input -->
     <EditText
-        android:id="@+id/emailInput"
+        android:id="@+id/etEmailContact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/subtitleText"
-        android:layout_marginRight="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="24dp"
-        android:background="#87CEEB"
-        android:backgroundTint="#9DF7FF"
-        android:fontFamily="sans-serif"
-        android:hint="Enter Email"
+        android:hint="Email/Contact"
         android:inputType="textEmailAddress"
         android:padding="12dp"
-        android:textColor="#3E3737"
-
-        android:textSize="16sp" />
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="12dp"/>
 
     <EditText
-        android:id="@+id/passwordInput"
+        android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/emailInput"
-        android:layout_marginTop="16dp"
-        android:background="#87CEEB"
-        android:layout_marginRight="30dp"
-        android:layout_marginLeft="30dp"
-        android:backgroundTint="#9DF7FF"
-        android:fontFamily="sans-serif"
-        android:hint="Enter Password"
+        android:hint="Password"
         android:inputType="textPassword"
         android:padding="12dp"
-        android:textColor="#000000"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="12dp"/>
 
-        android:textSize="16sp" />
-
-    <!-- Proceed Button -->
-    <Button
-        android:id="@+id/proceedButton"
-        android:layout_width="150dp"
+    <EditText
+        android:id="@+id/etBirthdate"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/passwordInput"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="24dp"
-        android:backgroundTint="#4A90E2"
-        android:fontFamily="sans-serif-medium"
+        android:hint="Birthdate"
+        android:inputType="date"
         android:padding="12dp"
-        android:text="Login "
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="12dp"/>
 
-</RelativeLayout>
+    <Spinner
+        android:id="@+id/spinnerRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/roles_array"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/languages_array"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:padding="12dp"/>
+</LinearLayout>

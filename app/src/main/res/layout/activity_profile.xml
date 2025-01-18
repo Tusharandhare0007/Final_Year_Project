@@ -24,7 +24,7 @@
             android:layout_marginBottom="16dp"
             android:background="@drawable/img"
             android:contentDescription="@string/profile_picture"
-            android:src="@drawable/" />
+            />
 
         <!-- Name -->
         <EditText

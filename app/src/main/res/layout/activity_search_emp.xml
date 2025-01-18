@@ -30,7 +30,7 @@
             android:id="@+id/title_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Search your dream job"
+            android:text="Search your Employee"
             android:textSize="24sp"
             android:textColor="#FFFFFF"
             android:fontFamily="sans-serif-medium"
@@ -65,15 +65,14 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:src="@drawable/ic_search"
-            android:contentDescription="@string/search_icon"
-            android:tint="#B0BEC5" />
+            app:tint="#B0BEC5" />
 
         <!-- Search Text -->
         <EditText
             android:id="@+id/search_job"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Search Job"
+            android:hint="Search Employee"
             android:textColorHint="#B0BEC5"
             android:textSize="16sp"
             android:background="@null"
@@ -87,7 +86,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="16dp"
-        android:gravity="space_between">
+        >
 
         <TextView
             android:id="@+id/recommendation_label"
@@ -137,7 +136,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/ic_job_logo_placeholder"
-                    android:contentDescription="@string/job_logo" />
+                    />
 
                 <!-- Job Details -->
                 <LinearLayout
@@ -150,7 +149,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="ZEAL"
+                        android:text="Jay"
                         android:textSize="14sp"
                         android:textColor="#333333"
                         android:fontFamily="sans-serif-medium" />
@@ -215,7 +214,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="ZEAL"
+                        android:text="Tushar"
                         android:textSize="14sp"
                         android:textColor="#333333"
                         android:fontFamily="sans-serif-medium" />
